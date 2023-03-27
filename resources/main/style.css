@@ -1,0 +1,204 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background: hsl(234, 66%, 8%);
+}
+canvas{
+    z-index: -10;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.main{
+    margin: auto;
+    padding-top: 10%;
+    max-width: 1000px;
+    text-align: center;
+}
+.icon{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    transition: 0.3s ease-in-out;
+    border-radius: 50%;
+    box-shadow: 
+        0 0 10px hsl(0, 0%, 0%);
+}
+.img:hover{
+    box-shadow: 
+    0 0 10px hsl(233, 31%, 38%),
+    0 0 15px hsl(233, 31%, 38%),
+    0 0 35px hsl(233, 35%, 38%);
+}
+.icon a{
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+    font-family: 'Secular One', sans-serif;
+    text-shadow: 
+        0 0 20px hsl(233, 66%, 42%);
+    color: hsl(233, 66%, 42%);
+    font-size: 40px;
+}
+.icon a:hover{
+    color: hsl(233, 66%, 67%);
+    text-shadow: 
+        0 0 20px hsl(233, 66%, 67%);
+}
+.icon b{
+    color: hsl(234, 66%, 8%);
+}
+.bigtext{
+    font-family: 'Secular One', sans-serif;
+    text-shadow: 0 0 7px hsl(233, 66%, 42%);
+    text-align: center;
+    margin: auto;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    color: hsl(233, 66%, 42%);
+    font-size: 60px;
+}
+.text{
+    text-shadow: 
+        0 0 20px hsl(233, 66%, 42%);
+    text-align: center;
+    margin: auto;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    color: hsl(233, 66%, 42%);
+    font-size: 30px;
+}
+.text a{
+    transition: 0.3s ease-in-out;
+    color: inherit;
+}
+.text a:hover{
+    color: hsl(233, 66%, 67%);
+    text-shadow:       
+        0 0 25px hsl(233, 66%, 67%);
+}
+
+.ugg{
+    text-shadow: 0 0 7px hsl(233, 66%, 42%);
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 15px 35px;
+    border: 2px solid hsl(233, 66%, 42%);
+    border-radius: 30px;
+    font-size: 1em;
+    font-weight: 500;
+    background: transparent;
+    color: hsl(233, 66%, 42%);
+    transition: 0.3s ease-in-out;
+}
+.ugg:hover {
+    letter-spacing: 1px;
+    padding: 15px 40px;
+    border: 2px solid hsl(202, 100%, 51%);
+    text-shadow: 0 0 7px hsl(0, 0%, 100%);
+    transform: scale(1.05);
+    box-shadow: 0 0 25px hsl(202, 100%, 51%);
+    background: hsl(202, 100%, 51%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+.yt{
+    text-shadow: 0 0 7px hsl(233, 66%, 42%);
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 15px 35px;
+    border: 2px solid hsl(233, 66%, 42%);
+    border-radius: 30px;
+    font-size: 1em;
+    font-weight: 500;
+    background: transparent;
+    color: hsl(233, 66%, 42%);
+    transition: ease-in-out 0.3s 
+}
+.yt:hover {
+    letter-spacing: 1px;
+    padding: 15px 40px;
+    border: 2px solid hsl(0, 100%, 50%);
+    text-shadow: 0 0 7px hsl(0, 0%, 100%);
+    transform: scale(1.05);
+    box-shadow: 0 0 25px hsl(0, 100%, 50%);
+    background: hsl(0, 100%, 50%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+.ig{
+    text-shadow: 0 0 7px hsl(233, 66%, 42%);
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 15px 35px;
+    border: 2px solid hsl(233, 66%, 42%);
+    border-radius: 30px;
+    font-size: 1em;
+    font-weight: 500;
+    background: transparent;
+    color: hsl(233, 66%, 42%);
+    transition: 0.3s ease-in-out; 
+}
+.ig:hover {
+    letter-spacing: 1px;
+    padding: 15px 40px;
+    border: 2px solid hsl(326, 57%, 48%);
+    text-shadow: 0 0 7px hsl(0, 0%, 100%);
+    transform: scale(1.05);
+    box-shadow: 0 0 25px hsl(326, 57%, 48%);
+    background: hsl(326, 57%, 48%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+.error{
+    text-shadow: 0 0 7px hsl(233, 66%, 42%);
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 15px 35px;
+    border: 2px solid hsl(233, 66%, 42%);
+    border-radius: 30px;
+    font-size: 1em;
+    font-weight: 500;
+    background: transparent;
+    color: hsl(233, 66%, 42%);
+    transition: 0.3s ease-in-out; 
+}
+.error:hover {
+    letter-spacing: 1px;
+    padding: 15px 40px;
+    border: 2px solid hsl(0, 100%, 50%);
+    text-shadow: 0 0 7px hsl(0, 0%, 100%);
+    transform: scale(1.05);
+    box-shadow: 0 0 25px hsl(0, 100%, 50%);
+    background: hsl(0, 100%, 50%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+.spotify{
+    text-shadow: 0 0 7px hsl(233, 66%, 42%);
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 15px 35px;
+    border: 2px solid hsl(233, 66%, 42%);
+    border-radius: 30px;
+    font-size: 1em;
+    font-weight: 500;
+    background: transparent;
+    color: hsl(233, 66%, 42%);
+    transition: 0.3s ease-in-out; 
+}
+.spotify:hover {
+    letter-spacing: 1px;
+    padding: 15px 40px;
+    border: 2px solid hsl(141, 73%, 42%);
+    text-shadow: 0 0 7px hsl(0, 0%, 100%);
+    transform: scale(1.05);
+    box-shadow: 0 0 25px hsl(141, 73%, 42%);
+    background: hsl(141, 73%, 42%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}

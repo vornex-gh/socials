@@ -1,0 +1,104 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background: hsl(172, 11%, 15%);
+}
+
+canvas{
+    z-index: -10;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.sp-main{
+    padding-top: 15%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+.spotify-text{
+    font-size: 40px;
+    color: hsl(176, 17%, 36%);
+    text-shadow: 0 0 10px hsl(176, 17%, 36%);
+}
+.spotify-text-2{
+    font-size: 20px;
+    color: hsl(177, 14%, 30%);
+    text-shadow: 0 0 10px hsl(177, 14%, 30%);
+    width: 70%;
+    margin: auto;
+}
+
+.spotify-1{
+    text-shadow: 0 0 7px hsl(176, 17%, 36%);
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 15px 35px;
+    border: 2px solid hsl(176, 17%, 36%);
+    border-radius: 30px;
+    font-size: 1em;
+    font-weight: 500;
+    background: transparent;
+    color: hsl(176, 17%, 36%);
+    transition: 0.3s ease-in-out; 
+}
+.spotify-1:hover {
+    letter-spacing: 1px;
+    padding: 15px 40px;
+    border: 2px solid hsl(141, 73%, 42%);
+    text-shadow: 0 0 7px hsl(0, 0%, 100%);
+    transform: scale(1.05);
+    box-shadow: 0 0 25px hsl(141, 73%, 42%);
+    background: hsl(141, 73%, 42%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+.spotify-2{
+    text-shadow: 0 0 7px hsl(176, 17%, 36%);
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 15px 35px;
+    border: 2px solid hsl(176, 17%, 36%);
+    border-radius: 30px;
+    font-size: 1em;
+    font-weight: 500;
+    background: transparent;
+    color: hsl(176, 17%, 36%);
+    transition: 0.3s ease-in-out; 
+}
+.spotify-2:hover {
+    letter-spacing: 1px;
+    padding: 15px 40px;
+    border: 2px solid hsl(141, 73%, 42%);
+    text-shadow: 0 0 7px hsl(0, 0%, 100%);
+    transform: scale(1.05);
+    box-shadow: 0 0 25px hsl(141, 73%, 42%);
+    background: hsl(141, 73%, 42%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+.spotify-3{
+    text-shadow: 0 0 7px hsl(176, 17%, 36%);
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 15px 35px;
+    border: 2px solid hsl(176, 17%, 36%);
+    border-radius: 30px;
+    font-size: 1em;
+    font-weight: 500;
+    background: transparent;
+    color: hsl(176, 17%, 36%);
+    transition: 0.3s ease-in-out; 
+}
+.spotify-3:hover {
+    letter-spacing: 1px;
+    padding: 15px 40px;
+    border: 2px solid hsl(141, 73%, 42%);
+    text-shadow: 0 0 7px hsl(0, 0%, 100%);
+    transform: scale(1.05);
+    box-shadow: 0 0 25px hsl(141, 73%, 42%);
+    background: hsl(141, 73%, 42%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
